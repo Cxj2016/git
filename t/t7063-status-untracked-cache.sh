@@ -323,7 +323,7 @@ flags 00000006
 /dtwo/ $ZERO_OID recurse check_only valid
 two
 EOF
-	test_might_fail test_cmp ../expect ../actual
+	test_cmp ../expect ../actual
 '
 
 test_expect_success 'status after the move' '
@@ -382,7 +382,7 @@ flags 00000006
 /dtwo/ $ZERO_OID recurse check_only valid
 two
 EOF
-	test_might_fail test_cmp ../expect ../actual
+	test_cmp ../expect ../actual
 '
 
 test_expect_success 'status after the move' '
